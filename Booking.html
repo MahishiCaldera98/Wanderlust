@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./logo.png" type="image/x-icon">
+    <title>Booking</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .booking-container {
+            width: 800px;
+            height: 550px;
+            padding: 10px;
+            background-color: black;
+            background-color: rgba(0, 0, 0, 0.56);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+
+        }
+
+        .booking-content {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .bookings-left {
+            padding-right: 20px;
+        }
+
+        .bookings-right {
+            padding-left: 20px;
+        }
+
+        .submitbtn {
+            margin-left: 25px;
+        }
+    </style>
+</head>
+
+<body style="background-image:url(./images/booking.jpg)">
+    <div class="booking-container">
+        <span style="color: white;" class="booking-title">Booking Here</span>
+        <form action="" onsubmit="" class="bookings">
+
+            <div class="booking-content">
+                <div class="bookings-left">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="myname1" id="name" class="fields"><br><br>
+
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="myemail" id="email" class="fields"><br><br>
+
+                    <label for="phonenum">Phone No.</label>
+                    <br>
+                    <input type="tel" name="myphone" id="phonenum" class="fields"><br><br>
+
+
+                    <label for="">Number of Adults</label>
+                    <br>
+                    <input type="number" name="adults" id="adults" class="fields"><br><br>
+
+
+                </div>
+
+                <div class="booking-right">
+                    <label for="departuredate">Check In</label>
+                    <br>
+                    <input type="datetime-local" name="departuredate" id="departuredate" class="fields"
+                        required><br><br>
+
+                    <label for="returndate">Check Out</label>
+                    <br>
+                    <input type="datetime-local" name="returndate" id="" class="fields" required><br><br>
+
+                    <label for="">Gender</label>
+                    <br>
+                    <input type="radio" name="mygender" id="" required> Male &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="mygender" id=""> Female
+                    <br><br>
+
+                    <label for="">Package</label>
+                    <br>
+                    <input type="radio" name="Package" id="loc1" required> 2 Star &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="Package" id="loc1"> 3 Star &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="Package" id="loc1"> 4 star &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="Package" id="loc1"> 5 Star &nbsp; &nbsp; &nbsp;
+                    <br> <br>
+                    <input type="checkbox" name="condition" id="" checked required> I accept the Terms & Conditions.
+                    <br> <br>
+                </div>
+
+            </div>
+            <input type="submit" value="Book" class="submitbtn">
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+.container{
+    padding: 100px;
+    padding-top: 20px !important;
+}
+
+.content{
+    display: flex;
+    
+}
+
+.img1-container{
+    background: url(../images/13.jpg)  ;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.img2-container{
+    background: url(../images/9.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.img3-container{
+    background: url(../images/16.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.img4-container{
+    background: url(../images/15.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.img5-container{
+    background: url(../images/10.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.img6-container{
+    background: url(../images/5.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.img7-container{
+    background: url(../images/14.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.img8-container{
+    background: url(../images/4.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.img9-container{
+    background: url(../images/3.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+}
+
+.img10-container{
+    background: url(../images/2.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.right-content{
+    padding-left: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 2rem;
+    text-align: justify;
+}
